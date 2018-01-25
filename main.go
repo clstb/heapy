@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	a := []int{10, 100, 1, 10, 100, 10}
+	a := []int{10, 100, 1, 10, 100, 10} // your slice
 	size := len(a)
 	b := make([]int, size)
 	copy(b, a)
